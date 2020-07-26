@@ -1,6 +1,6 @@
 
 var animation = {
-  container: document.getElementById('animation'), // Required
+  container: document.getElementById('player'), // Required
   path: 'data.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
