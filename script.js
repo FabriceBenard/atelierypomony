@@ -1,4 +1,4 @@
-alert("hello");
+
 var animation = {
   container: document.getElementById('data'), // Required
   path: 'data.json', // Required
