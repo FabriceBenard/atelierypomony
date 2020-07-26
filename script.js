@@ -20,3 +20,6 @@ var animation = bodymovin.loadAnimation({
   autoplay: true, // Optional
   name: "Hello World", // Name for future reference. Optional.
 });
+
+const player = document.qgetElementById('player');
+player.load('data.json');
