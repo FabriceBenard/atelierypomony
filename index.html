@@ -8,16 +8,18 @@
 <div class="lottie" id="animation"></div>
 <div class="" id="lottie2" style="height:100vh;background-color:lightgrey;"></div>
 <div class="lottie bodymovin" id="data" style="height:100vh;background-color:grey;"></div>
-<!-- <script type="text/javascript">
-var animation = bodymovin.loadAnimation({
-  container: document.getElementById('lottie2'), // Required
-  path: '28087-email-services.json', // Required
-  renderer: 'svg', // Required
-  loop: true, // Optional
-  autoplay: true, // Optional
-  name: "Hello World", // Name for future reference. Optional.
-});
-</script> -->
+
+<script>
+  var animData = {
+    wrapper: document.getElementById('data'),
+    animType: 'html',
+    loop: true,
+    prerender: true,
+    autoplay: true,
+    path: 'data.json'
+};
+var anim = bodymovin.loadAnimation(animData);
+</script>
 
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
