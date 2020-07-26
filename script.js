@@ -1,3 +1,4 @@
+import '@lottiefiles/lottie-player';
 
 var animation = {
   container: document.getElementById('player'), // Required
