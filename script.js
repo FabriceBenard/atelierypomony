@@ -1,3 +1,4 @@
+alert("hello");
 var animation = {
   container: document.getElementById('data'), // Required
   path: 'data.json', // Required
@@ -9,7 +10,6 @@ var animation = {
 
 var anim = bodymovin.loadAnimation(animation);
 
-alert("hello");
 // lottie.loadAnimation({
 //   container: document.getElementById('animation'), // the dom element that will contain the animation
 //   renderer: 'svg',
